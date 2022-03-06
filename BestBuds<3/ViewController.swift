@@ -9,9 +9,25 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var userTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var signInButton: UIButton!
+    
+    @IBAction func signinpress(_ sender: UIButton) {
+        print("Pressed")
+        
+        self.performSegue(withIdentifier: "SecondViewSegue", sender: self)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        userTextField.layer.cornerRadius=22
+        passwordTextField.layer.cornerRadius=22
+        signInButton.layer.cornerRadius=22
+        
+        print("View Has Loaded")
+        
+        
     }
 
 
