@@ -248,6 +248,82 @@
                     <view key="view" contentMode="scaleToFill" id="4lb-Uj-x7A">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Plant Care Tips!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QzO-CH-lHc">
+                                <rect key="frame" x="146" y="437" width="121" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VaS-M1-u0M">
+                                <rect key="frame" x="-7" y="126" width="421" height="1546"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0qO-Fu-Isg">
+                                        <rect key="frame" x="90" y="709" width="240" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <viewLayoutGuide key="contentLayoutGuide" id="khr-nP-33w"/>
+                                        <viewLayoutGuide key="frameLayoutGuide" id="nBb-Kq-7Mc"/>
+                                    </scrollView>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zp9-nM-wrh">
+                                        <rect key="frame" x="-15" y="147" width="436" height="1399"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qUS-v9-PBU">
+                                                <rect key="frame" x="40" y="65" width="362" height="176"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <string key="text">Plant Duster
+-Snip off a corner of a sponge. 
+-Dampen the sponge and brush over the leaves. 
+-Dusting off the dust from your plants helps them photosynthesize better and also makes them look clean and fresh.
+-You could also use a banana peel, but it might leave some banana gunk behind, however, it supposedly repels aphids. 
+</string>
+                                                <color key="textColor" systemColor="labelColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sponge and Leaf.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ibz-ai-QgI">
+                                                <rect key="frame" x="94" y="225" width="255" height="170"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="AtJ-wL-GeG">
+                                                <rect key="frame" x="35" y="403" width="360" height="115"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <string key="text">Hard Boiled Egg Water 
+-Eggshells are rich in calcium. This can be used to neutralize the pH in the soil. 
+-When boiling eggs the calcium ends up in the water. The water can be used to water your plants. They’re gonna love it.
+</string>
+                                                <color key="textColor" systemColor="labelColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Boiled eggs.png" translatesAutoresizingMaskIntoConstraints="NO" id="2UW-yH-3yF">
+                                                <rect key="frame" x="95" y="526" width="240" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ZkY-cO-QvQ">
+                                                <rect key="frame" x="20" y="662" width="396" height="99"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <string key="text">Chopstick Supports
+-Your plants might need a little help when they grow.
+-You can use wooden chopsticks from your takeout and secure them in the soil. Twine or plant tape can be used to hold up the droopy stem. 
+</string>
+                                                <color key="textColor" systemColor="labelColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="iLr-Ui-muv"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="ukY-Gm-gxN"/>
+                            </scrollView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="SPz-s6-Bpp"/>
                         <color key="backgroundColor" systemColor="systemPurpleColor"/>
                     </view>
@@ -255,18 +331,23 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qz7-7F-BMG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1770" y="1907"/>
+            <point key="canvasLocation" x="1769.5652173913045" y="1906.4732142857142"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="YHe-Oc-rep"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="Boiled eggs.png" width="1200" height="1200"/>
+        <image name="Sponge and Leaf.png" width="764" height="509"/>
         <image name="book.closed.fill" catalog="system" width="115" height="128"/>
         <image name="globe" catalog="system" width="128" height="121"/>
         <image name="info.circle.fill" catalog="system" width="128" height="121"/>
         <image name="leaf.circle.fill" catalog="system" width="128" height="121"/>
         <image name="leaf.fill" catalog="system" width="128" height="106"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
