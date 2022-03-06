@@ -169,117 +169,100 @@
             <point key="canvasLocation" x="-416" y="21"/>
         </scene>
         <!--Tab Bar Controller-->
-        <scene sceneID="nd3-I2-5Oe">
+        <scene sceneID="hP5-Dx-Jwj">
             <objects>
-                <tabBarController id="xFi-Ph-bGK" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ooD-3o-Hf9">
+                <tabBarController id="pOH-nc-qTN" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="IZC-9q-tDf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="mce-a2-ouX" kind="relationship" relationship="viewControllers" id="wpf-6D-qbz"/>
-                        <segue destination="Heh-Jw-4TY" kind="relationship" relationship="viewControllers" id="eOc-ja-QfR"/>
-                        <segue destination="3E9-hV-712" kind="relationship" relationship="viewControllers" id="omt-fK-bsD"/>
-                        <segue destination="tSp-Wj-yt1" kind="relationship" relationship="viewControllers" id="qy6-jd-Q8q"/>
-                        <segue destination="fX6-Ya-BZo" kind="relationship" relationship="viewControllers" id="MgX-B9-XoW"/>
+                        <segue destination="jyA-KC-dKk" kind="relationship" relationship="viewControllers" id="Hzk-W0-mvi"/>
+                        <segue destination="mim-zy-rRO" kind="relationship" relationship="viewControllers" id="CZO-j8-I4f"/>
+                        <segue destination="wNb-3A-pI6" kind="relationship" relationship="viewControllers" id="yoQ-Yb-nmV"/>
+                        <segue destination="Sa7-bd-jD4" kind="relationship" relationship="viewControllers" id="IpC-vE-tUu"/>
                     </connections>
                 </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7ED-Nd-wUf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ojE-dS-yyK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="700" y="17"/>
         </scene>
-        <!--My Plants-->
-        <scene sceneID="vp4-wU-Oe5">
-            <objects>
-                <viewController id="mce-a2-ouX" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="6fi-gU-roj">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="XRJ-wT-GFz"/>
-                        <color key="backgroundColor" systemColor="systemGreenColor"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="My Plants" image="leaf.circle.fill" catalog="system" id="mBQ-dF-iLQ"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lYw-H0-SYB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1770" y="-1502"/>
-        </scene>
         <!--Tips-->
-        <scene sceneID="Kxf-vU-O6z">
+        <scene sceneID="e4j-jC-5KI">
             <objects>
-                <viewController id="Heh-Jw-4TY" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="d0v-de-bcf">
+                <viewController id="jyA-KC-dKk" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="raW-yr-tCw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="av6-Uc-dV6"/>
+                        <viewLayoutGuide key="safeArea" id="cnC-O6-jqo"/>
                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Tips" image="info.circle.fill" catalog="system" id="sAg-Zm-Qan"/>
+                    <tabBarItem key="tabBarItem" title="Tips" image="info.circle.fill" catalog="system" id="hp7-Kr-5eK"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="PGT-WU-Pgb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J3S-37-NkG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1770" y="-841"/>
         </scene>
         <!--Feed-->
-        <scene sceneID="d57-yw-ST7">
+        <scene sceneID="z35-O5-6Uv">
             <objects>
-                <viewController id="3E9-hV-712" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="b9D-ti-1ke">
+                <viewController id="mim-zy-rRO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="37V-H4-t5z">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="oCk-Xy-9an"/>
+                        <viewLayoutGuide key="safeArea" id="iqY-NU-amR"/>
                         <color key="backgroundColor" systemColor="systemPinkColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Feed" image="globe" catalog="system" id="2b3-mx-3rO"/>
+                    <tabBarItem key="tabBarItem" title="Feed" image="globe" catalog="system" id="yuw-eS-fFh"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="F1a-Hb-BP6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FhD-n7-SML" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1770" y="-204"/>
         </scene>
         <!--Plant Care-->
-        <scene sceneID="4OR-Ie-zWb">
+        <scene sceneID="Ugj-fT-gDB">
             <objects>
-                <viewController id="tSp-Wj-yt1" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="RlX-YQ-dy7">
+                <viewController id="wNb-3A-pI6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OdJ-wT-0h2">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KjD-Cr-XJ9">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A1n-0a-bOw">
                                 <rect key="frame" x="0.0" y="44" width="414" height="300"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="300" id="qEO-Q6-q5j"/>
+                                    <constraint firstAttribute="height" constant="300" id="SEC-lz-z3q"/>
                                 </constraints>
                             </view>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="847-es-yDq"/>
+                        <viewLayoutGuide key="safeArea" id="Xhe-oe-0WR"/>
                         <color key="backgroundColor" systemColor="systemTealColor"/>
                         <constraints>
-                            <constraint firstItem="KjD-Cr-XJ9" firstAttribute="top" secondItem="847-es-yDq" secondAttribute="top" id="6Sg-Gk-k5m"/>
-                            <constraint firstItem="KjD-Cr-XJ9" firstAttribute="leading" secondItem="847-es-yDq" secondAttribute="leading" id="TNM-jE-i7l"/>
-                            <constraint firstItem="847-es-yDq" firstAttribute="trailing" secondItem="KjD-Cr-XJ9" secondAttribute="trailing" id="VlM-43-H10"/>
+                            <constraint firstItem="A1n-0a-bOw" firstAttribute="leading" secondItem="Xhe-oe-0WR" secondAttribute="leading" id="0QP-cT-gZu"/>
+                            <constraint firstItem="Xhe-oe-0WR" firstAttribute="trailing" secondItem="A1n-0a-bOw" secondAttribute="trailing" id="QFc-RC-Mj4"/>
+                            <constraint firstItem="A1n-0a-bOw" firstAttribute="top" secondItem="Xhe-oe-0WR" secondAttribute="top" id="ivn-dG-Lp0"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Plant Care" image="leaf.fill" catalog="system" id="qT6-j8-WuT"/>
+                    <tabBarItem key="tabBarItem" title="Plant Care" image="leaf.fill" catalog="system" id="0Zt-Em-mdh"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="KFh-Gf-26J" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gyW-EZ-wUN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1771" y="445"/>
         </scene>
         <!--Plant Book-->
-        <scene sceneID="kB1-Dy-DaB">
+        <scene sceneID="42W-hp-cn5">
             <objects>
-                <viewController id="fX6-Ya-BZo" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="jpM-nZ-tq7">
+                <viewController id="Sa7-bd-jD4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Lgu-dG-PBU">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="zra-iy-voB"/>
+                        <viewLayoutGuide key="safeArea" id="Blh-0c-Q3P"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Plant Book" image="book.closed.fill" catalog="system" id="c67-K6-pL0"/>
+                    <tabBarItem key="tabBarItem" title="Plant Book" image="book.closed.fill" catalog="system" id="xTE-9B-m5E"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="EdI-RG-fin" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="31J-H8-Tgl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1770" y="1169"/>
         </scene>
