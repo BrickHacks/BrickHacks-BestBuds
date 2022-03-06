@@ -18,6 +18,12 @@
 		6656995A27D4A8F40097E2C4 /* Icecubes .png in Resources */ = {isa = PBXBuildFile; fileRef = 6656995927D4A8F40097E2C4 /* Icecubes .png */; };
 		6656995C27D4A9A10097E2C4 /* Coffee Grounds.png in Resources */ = {isa = PBXBuildFile; fileRef = 6656995B27D4A9A00097E2C4 /* Coffee Grounds.png */; };
 		6656995E27D4AA170097E2C4 /* Club Soda Plant.png in Resources */ = {isa = PBXBuildFile; fileRef = 6656995D27D4AA170097E2C4 /* Club Soda Plant.png */; };
+		6656996027D4F5580097E2C4 /* PlantCare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6656995F27D4F5580097E2C4 /* PlantCare.swift */; };
+		6656996427D4F6D10097E2C4 /* ragic.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6656996327D4F6D10097E2C4 /* ragic.strings */; };
+		6656996627D503610097E2C4 /* petunia-hanging_basket_full_width.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6656996527D503600097E2C4 /* petunia-hanging_basket_full_width.jpg */; };
+		6656996827D5064B0097E2C4 /* aloe.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6656996727D5064A0097E2C4 /* aloe.jpeg */; };
+		66C9B0D027D50A200086E71F /* maxresdefault.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66C9B0CF27D50A200086E71F /* maxresdefault.jpg */; };
+		66DE2C1D27D50CC500005CAB /* growing-petunia1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66DE2C1C27D50CC500005CAB /* growing-petunia1.jpg */; };
 		A8E8B14327D40FCE00F6F4A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E8B14227D40FCE00F6F4A1 /* AppDelegate.swift */; };
 		A8E8B14527D40FCE00F6F4A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E8B14427D40FCE00F6F4A1 /* SceneDelegate.swift */; };
 		A8E8B14727D40FCE00F6F4A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E8B14627D40FCE00F6F4A1 /* ViewController.swift */; };
@@ -39,6 +45,12 @@
 		6656995927D4A8F40097E2C4 /* Icecubes .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icecubes .png"; path = "../../../Desktop/Icecubes .png"; sourceTree = "<group>"; };
 		6656995B27D4A9A00097E2C4 /* Coffee Grounds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Coffee Grounds.png"; path = "../../../Desktop/Coffee Grounds.png"; sourceTree = "<group>"; };
 		6656995D27D4AA170097E2C4 /* Club Soda Plant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Club Soda Plant.png"; path = "../../../Desktop/Club Soda Plant.png"; sourceTree = "<group>"; };
+		6656995F27D4F5580097E2C4 /* PlantCare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantCare.swift; sourceTree = "<group>"; };
+		6656996327D4F6D10097E2C4 /* ragic.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = ragic.strings; sourceTree = "<group>"; };
+		6656996527D503600097E2C4 /* petunia-hanging_basket_full_width.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "petunia-hanging_basket_full_width.jpg"; path = "../../../Desktop/petunia-hanging_basket_full_width.jpg"; sourceTree = "<group>"; };
+		6656996727D5064A0097E2C4 /* aloe.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = aloe.jpeg; path = ../../../Desktop/aloe.jpeg; sourceTree = "<group>"; };
+		66C9B0CF27D50A200086E71F /* maxresdefault.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = maxresdefault.jpg; path = ../../../Desktop/maxresdefault.jpg; sourceTree = "<group>"; };
+		66DE2C1C27D50CC500005CAB /* growing-petunia1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "growing-petunia1.jpg"; path = "../../../Desktop/growing-petunia1.jpg"; sourceTree = "<group>"; };
 		A8E8B13F27D40FCE00F6F4A1 /* BestBuds<3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BestBuds<3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8E8B14227D40FCE00F6F4A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8E8B14427D40FCE00F6F4A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +92,7 @@
 		A8E8B14127D40FCE00F6F4A1 /* BestBuds<3 */ = {
 			isa = PBXGroup;
 			children = (
+				6656995F27D4F5580097E2C4 /* PlantCare.swift */,
 				A8E8B14227D40FCE00F6F4A1 /* AppDelegate.swift */,
 				A8E8B14427D40FCE00F6F4A1 /* SceneDelegate.swift */,
 				A8E8B14627D40FCE00F6F4A1 /* ViewController.swift */,
@@ -87,10 +100,14 @@
 				A8E8B14B27D40FD500F6F4A1 /* Assets.xcassets */,
 				660DB44127D48AC800EFB4B6 /* Sponge and Leaf.png */,
 				A8E8B14D27D40FD500F6F4A1 /* LaunchScreen.storyboard */,
+				66C9B0CF27D50A200086E71F /* maxresdefault.jpg */,
 				A8E8B15027D40FD500F6F4A1 /* Info.plist */,
+				66DE2C1C27D50CC500005CAB /* growing-petunia1.jpg */,
 				A8E8B15627D43FF500F6F4A1 /* SecondScreenViewController.swift */,
 				6624BDE927D4735C00362D03 /* TabBarController.swift */,
 				6624BDEB27D477E100362D03 /* MyPlantsController.swift */,
+				6656996527D503600097E2C4 /* petunia-hanging_basket_full_width.jpg */,
+				6656996727D5064A0097E2C4 /* aloe.jpeg */,
 				6656994F27D499450097E2C4 /* Boiled eggs.png */,
 				6656995127D4A4480097E2C4 /* Chopstick Supports.png */,
 				6656995327D4A6C30097E2C4 /* Eggshell seedlings.png */,
@@ -99,6 +116,7 @@
 				6656995927D4A8F40097E2C4 /* Icecubes .png */,
 				6656995B27D4A9A00097E2C4 /* Coffee Grounds.png */,
 				6656995D27D4AA170097E2C4 /* Club Soda Plant.png */,
+				6656996327D4F6D10097E2C4 /* ragic.strings */,
 			);
 			path = "BestBuds<3";
 			sourceTree = "<group>";
@@ -166,10 +184,15 @@
 				6656995227D4A4490097E2C4 /* Chopstick Supports.png in Resources */,
 				6656995427D4A6C30097E2C4 /* Eggshell seedlings.png in Resources */,
 				6656995827D4A89C0097E2C4 /* Waterwick Hack.png in Resources */,
+				66C9B0D027D50A200086E71F /* maxresdefault.jpg in Resources */,
+				6656996627D503610097E2C4 /* petunia-hanging_basket_full_width.jpg in Resources */,
 				6656995A27D4A8F40097E2C4 /* Icecubes .png in Resources */,
+				6656996427D4F6D10097E2C4 /* ragic.strings in Resources */,
 				660DB44227D48AC800EFB4B6 /* Sponge and Leaf.png in Resources */,
 				A8E8B14C27D40FD500F6F4A1 /* Assets.xcassets in Resources */,
 				6656995027D499450097E2C4 /* Boiled eggs.png in Resources */,
+				66DE2C1D27D50CC500005CAB /* growing-petunia1.jpg in Resources */,
+				6656996827D5064B0097E2C4 /* aloe.jpeg in Resources */,
 				A8E8B14A27D40FCE00F6F4A1 /* Main.storyboard in Resources */,
 				6656995E27D4AA170097E2C4 /* Club Soda Plant.png in Resources */,
 				6656995C27D4A9A10097E2C4 /* Coffee Grounds.png in Resources */,
@@ -186,6 +209,7 @@
 				A8E8B15727D43FF500F6F4A1 /* SecondScreenViewController.swift in Sources */,
 				6624BDEC27D477E200362D03 /* MyPlantsController.swift in Sources */,
 				A8E8B14727D40FCE00F6F4A1 /* ViewController.swift in Sources */,
+				6656996027D4F5580097E2C4 /* PlantCare.swift in Sources */,
 				A8E8B14327D40FCE00F6F4A1 /* AppDelegate.swift in Sources */,
 				6624BDEA27D4735C00362D03 /* TabBarController.swift in Sources */,
 				A8E8B14527D40FCE00F6F4A1 /* SceneDelegate.swift in Sources */,
@@ -337,7 +361,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = D5735V3TJ8;
+				DEVELOPMENT_TEAM = R6KL2P722V;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "BestBuds<3/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -365,7 +389,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = D5735V3TJ8;
+				DEVELOPMENT_TEAM = R6KL2P722V;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "BestBuds<3/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
