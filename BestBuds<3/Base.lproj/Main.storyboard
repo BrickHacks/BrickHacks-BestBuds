@@ -249,29 +249,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Plant Care Tips!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QzO-CH-lHc">
-                                <rect key="frame" x="146" y="437" width="121" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VaS-M1-u0M">
-                                <rect key="frame" x="-7" y="126" width="421" height="1546"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0qO-Fu-Isg">
+                                <rect key="frame" x="14" y="44" width="386" height="2396"/>
                                 <subviews>
-                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0qO-Fu-Isg">
-                                        <rect key="frame" x="90" y="709" width="240" height="128"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <viewLayoutGuide key="contentLayoutGuide" id="khr-nP-33w"/>
-                                        <viewLayoutGuide key="frameLayoutGuide" id="nBb-Kq-7Mc"/>
-                                    </scrollView>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zp9-nM-wrh">
-                                        <rect key="frame" x="-15" y="147" width="436" height="1399"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cee-HN-a8v">
+                                        <rect key="frame" x="-14" y="0.0" width="400" height="2271"/>
                                         <subviews>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qUS-v9-PBU">
-                                                <rect key="frame" x="40" y="65" width="362" height="176"/>
+                                                <rect key="frame" x="20" y="49" width="362" height="176"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <string key="text">Plant Duster
@@ -285,11 +270,11 @@
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sponge and Leaf.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ibz-ai-QgI">
-                                                <rect key="frame" x="94" y="225" width="255" height="170"/>
+                                                <rect key="frame" x="113" y="216" width="195" height="132"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="AtJ-wL-GeG">
-                                                <rect key="frame" x="35" y="403" width="360" height="115"/>
+                                                <rect key="frame" x="22" y="356" width="360" height="115"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <string key="text">Hard Boiled Egg Water 
@@ -301,11 +286,18 @@
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Boiled eggs.png" translatesAutoresizingMaskIntoConstraints="NO" id="2UW-yH-3yF">
-                                                <rect key="frame" x="95" y="526" width="240" height="128"/>
+                                                <rect key="frame" x="82" y="458" width="240" height="128"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Plant Care Tips!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QzO-CH-lHc">
+                                                <rect key="frame" x="141" y="20" width="121" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ZkY-cO-QvQ">
-                                                <rect key="frame" x="20" y="662" width="396" height="99"/>
+                                                <rect key="frame" x="22" y="589" width="379" height="99"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <string key="text">Chopstick Supports
@@ -316,16 +308,126 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Chopstick Supports.png" translatesAutoresizingMaskIntoConstraints="NO" id="PkQ-zj-iJ8">
+                                                <rect key="frame" x="79" y="696" width="243" height="137"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="spz-da-ktV">
+                                                <rect key="frame" x="20" y="841" width="361" height="98"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <string key="text">-Eggshell Seedlings
+-You don’t have to buy tiny pots to start your seedlings. Save your eggshells and make sure they’re halved (be careful). Fill them with soil and place your seed in the eggshell.
+</string>
+                                                <color key="textColor" systemColor="labelColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Eggshell seedlings.png" translatesAutoresizingMaskIntoConstraints="NO" id="f8c-Ll-ppC">
+                                                <rect key="frame" x="80" y="935" width="240" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="R49-6u-Vgc">
+                                                <rect key="frame" x="22" y="1071" width="360" height="84"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <string key="text">Cinnamon Saver
+-Seedlings mostly die from fungal disease. There are antifungal properties of cinnamon. Mixing cinnamon in the seedling soil can keep the disease at bay. 
+</string>
+                                                <color key="textColor" systemColor="labelColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Cinnamon Saver.png" translatesAutoresizingMaskIntoConstraints="NO" id="Mvp-CW-XIf">
+                                                <rect key="frame" x="90" y="1148" width="240" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Zb3-Jz-qPJ">
+                                                <rect key="frame" x="22" y="1284" width="360" height="86"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <string key="text">Water Wicking Method 
+-A cotton rope is needed. One end of the rope should be in the plant’s soil while the other end hangs down in the bottom of the container filled with water. 
+</string>
+                                                <color key="textColor" systemColor="labelColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Waterwick Hack.png" translatesAutoresizingMaskIntoConstraints="NO" id="a1K-HQ-kn5">
+                                                <rect key="frame" x="88" y="1359" width="240" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9sa-96-3v2">
+                                                <rect key="frame" x="20" y="1495" width="362" height="116"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <string key="text">Ice Cubes
+-Leaving about three ice cubes on top of the soil once a week helps you avoid leaks and helps with overwatering your plants.
+-Tropical plants have roots that can be shocked by the cold water 
+</string>
+                                                <color key="textColor" systemColor="labelColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Icecubes .png" translatesAutoresizingMaskIntoConstraints="NO" id="EaL-gl-rbT">
+                                                <rect key="frame" x="81" y="1594" width="240" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dLb-jh-LLC">
+                                                <rect key="frame" x="20" y="1728" width="362" height="132"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <string key="text">Coffee Grounds
+-Rinse the coffee grounds that will be used and place a bit on top of the soil of the plants.
+-Coffee grounds can provide an acidic boost to plants who love lower pH such as blueberries or ferns. The coffee grounds also help to scare some pests and attract earthworms. 
+</string>
+                                                <color key="textColor" systemColor="labelColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Coffee Grounds.png" translatesAutoresizingMaskIntoConstraints="NO" id="xNW-XV-Kua">
+                                                <rect key="frame" x="62" y="1855" width="277" height="171"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Fnx-ZI-Bie">
+                                                <rect key="frame" x="22" y="2034" width="360" height="83"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <string key="text">Club Soda
+-Plants love minerals such as phosphorus, sulfur, sodium, and potassium. Club soda contains such minerals to aid in growth and help be greener.
+</string>
+                                                <color key="textColor" systemColor="labelColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Club Soda Plant.png" translatesAutoresizingMaskIntoConstraints="NO" id="pWb-d3-jHj">
+                                                <rect key="frame" x="81" y="2125" width="247" height="138"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     </view>
                                 </subviews>
-                                <viewLayoutGuide key="contentLayoutGuide" id="iLr-Ui-muv"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="ukY-Gm-gxN"/>
+                                <constraints>
+                                    <constraint firstItem="nBb-Kq-7Mc" firstAttribute="bottom" secondItem="Cee-HN-a8v" secondAttribute="bottom" constant="125" id="4Hi-MV-gMy"/>
+                                    <constraint firstItem="nBb-Kq-7Mc" firstAttribute="trailing" secondItem="Cee-HN-a8v" secondAttribute="trailing" id="CjQ-Wx-IcS"/>
+                                    <constraint firstItem="Cee-HN-a8v" firstAttribute="centerY" secondItem="0qO-Fu-Isg" secondAttribute="centerY" id="Kik-hU-YAF"/>
+                                    <constraint firstAttribute="bottom" secondItem="Cee-HN-a8v" secondAttribute="bottom" constant="125" id="ZIL-lp-mSX"/>
+                                    <constraint firstItem="Cee-HN-a8v" firstAttribute="leading" secondItem="0qO-Fu-Isg" secondAttribute="leading" constant="-14" id="mH8-UN-64p"/>
+                                    <constraint firstItem="Cee-HN-a8v" firstAttribute="top" secondItem="nBb-Kq-7Mc" secondAttribute="top" id="n4p-dn-qpX"/>
+                                    <constraint firstAttribute="trailing" secondItem="Cee-HN-a8v" secondAttribute="trailing" constant="-20" id="pc5-il-C7f"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="khr-nP-33w"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="nBb-Kq-7Mc"/>
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="SPz-s6-Bpp"/>
-                        <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                        <constraints>
+                            <constraint firstItem="0qO-Fu-Isg" firstAttribute="leading" secondItem="SPz-s6-Bpp" secondAttribute="leading" constant="14" id="IBB-ds-rS8"/>
+                            <constraint firstItem="0qO-Fu-Isg" firstAttribute="top" secondItem="SPz-s6-Bpp" secondAttribute="top" id="V6V-s6-RBc"/>
+                            <constraint firstItem="0qO-Fu-Isg" firstAttribute="centerX" secondItem="4lb-Uj-x7A" secondAttribute="centerX" id="qP2-mL-Jnj"/>
+                            <constraint firstAttribute="bottom" secondItem="0qO-Fu-Isg" secondAttribute="bottom" constant="-1544" id="qiK-Ip-tyr"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Plant Book" image="book.closed.fill" catalog="system" id="AJs-kj-pGf"/>
                 </viewController>
@@ -339,7 +441,14 @@
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Boiled eggs.png" width="1200" height="1200"/>
+        <image name="Chopstick Supports.png" width="400" height="400"/>
+        <image name="Cinnamon Saver.png" width="1600" height="970"/>
+        <image name="Club Soda Plant.png" width="1600" height="1066"/>
+        <image name="Coffee Grounds.png" width="941" height="627"/>
+        <image name="Eggshell seedlings.png" width="1280" height="720"/>
+        <image name="Icecubes .png" width="1600" height="1066"/>
         <image name="Sponge and Leaf.png" width="764" height="509"/>
+        <image name="Waterwick Hack.png" width="1200" height="675"/>
         <image name="book.closed.fill" catalog="system" width="115" height="128"/>
         <image name="globe" catalog="system" width="128" height="121"/>
         <image name="info.circle.fill" catalog="system" width="128" height="121"/>
@@ -359,9 +468,6 @@
         </systemColor>
         <systemColor name="systemPinkColor">
             <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemPurpleColor">
-            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemTealColor">
             <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

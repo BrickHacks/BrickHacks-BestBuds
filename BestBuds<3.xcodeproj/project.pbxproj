@@ -11,6 +11,13 @@
 		6624BDEA27D4735C00362D03 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6624BDE927D4735C00362D03 /* TabBarController.swift */; };
 		6624BDEC27D477E200362D03 /* MyPlantsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6624BDEB27D477E100362D03 /* MyPlantsController.swift */; };
 		6656995027D499450097E2C4 /* Boiled eggs.png in Resources */ = {isa = PBXBuildFile; fileRef = 6656994F27D499450097E2C4 /* Boiled eggs.png */; };
+		6656995227D4A4490097E2C4 /* Chopstick Supports.png in Resources */ = {isa = PBXBuildFile; fileRef = 6656995127D4A4480097E2C4 /* Chopstick Supports.png */; };
+		6656995427D4A6C30097E2C4 /* Eggshell seedlings.png in Resources */ = {isa = PBXBuildFile; fileRef = 6656995327D4A6C30097E2C4 /* Eggshell seedlings.png */; };
+		6656995627D4A75F0097E2C4 /* Cinnamon Saver.png in Resources */ = {isa = PBXBuildFile; fileRef = 6656995527D4A75F0097E2C4 /* Cinnamon Saver.png */; };
+		6656995827D4A89C0097E2C4 /* Waterwick Hack.png in Resources */ = {isa = PBXBuildFile; fileRef = 6656995727D4A89C0097E2C4 /* Waterwick Hack.png */; };
+		6656995A27D4A8F40097E2C4 /* Icecubes .png in Resources */ = {isa = PBXBuildFile; fileRef = 6656995927D4A8F40097E2C4 /* Icecubes .png */; };
+		6656995C27D4A9A10097E2C4 /* Coffee Grounds.png in Resources */ = {isa = PBXBuildFile; fileRef = 6656995B27D4A9A00097E2C4 /* Coffee Grounds.png */; };
+		6656995E27D4AA170097E2C4 /* Club Soda Plant.png in Resources */ = {isa = PBXBuildFile; fileRef = 6656995D27D4AA170097E2C4 /* Club Soda Plant.png */; };
 		A8E8B14327D40FCE00F6F4A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E8B14227D40FCE00F6F4A1 /* AppDelegate.swift */; };
 		A8E8B14527D40FCE00F6F4A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E8B14427D40FCE00F6F4A1 /* SceneDelegate.swift */; };
 		A8E8B14727D40FCE00F6F4A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E8B14627D40FCE00F6F4A1 /* ViewController.swift */; };
@@ -25,6 +32,13 @@
 		6624BDE927D4735C00362D03 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		6624BDEB27D477E100362D03 /* MyPlantsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPlantsController.swift; sourceTree = "<group>"; };
 		6656994F27D499450097E2C4 /* Boiled eggs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Boiled eggs.png"; path = "../../../Desktop/Boiled eggs.png"; sourceTree = "<group>"; };
+		6656995127D4A4480097E2C4 /* Chopstick Supports.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Chopstick Supports.png"; path = "../../../Desktop/Chopstick Supports.png"; sourceTree = "<group>"; };
+		6656995327D4A6C30097E2C4 /* Eggshell seedlings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Eggshell seedlings.png"; path = "../../../Desktop/Eggshell seedlings.png"; sourceTree = "<group>"; };
+		6656995527D4A75F0097E2C4 /* Cinnamon Saver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Cinnamon Saver.png"; path = "../../../Desktop/Cinnamon Saver.png"; sourceTree = "<group>"; };
+		6656995727D4A89C0097E2C4 /* Waterwick Hack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Waterwick Hack.png"; path = "../../../Desktop/Waterwick Hack.png"; sourceTree = "<group>"; };
+		6656995927D4A8F40097E2C4 /* Icecubes .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icecubes .png"; path = "../../../Desktop/Icecubes .png"; sourceTree = "<group>"; };
+		6656995B27D4A9A00097E2C4 /* Coffee Grounds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Coffee Grounds.png"; path = "../../../Desktop/Coffee Grounds.png"; sourceTree = "<group>"; };
+		6656995D27D4AA170097E2C4 /* Club Soda Plant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Club Soda Plant.png"; path = "../../../Desktop/Club Soda Plant.png"; sourceTree = "<group>"; };
 		A8E8B13F27D40FCE00F6F4A1 /* BestBuds<3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BestBuds<3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8E8B14227D40FCE00F6F4A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8E8B14427D40FCE00F6F4A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +92,13 @@
 				6624BDE927D4735C00362D03 /* TabBarController.swift */,
 				6624BDEB27D477E100362D03 /* MyPlantsController.swift */,
 				6656994F27D499450097E2C4 /* Boiled eggs.png */,
+				6656995127D4A4480097E2C4 /* Chopstick Supports.png */,
+				6656995327D4A6C30097E2C4 /* Eggshell seedlings.png */,
+				6656995527D4A75F0097E2C4 /* Cinnamon Saver.png */,
+				6656995727D4A89C0097E2C4 /* Waterwick Hack.png */,
+				6656995927D4A8F40097E2C4 /* Icecubes .png */,
+				6656995B27D4A9A00097E2C4 /* Coffee Grounds.png */,
+				6656995D27D4AA170097E2C4 /* Club Soda Plant.png */,
 			);
 			path = "BestBuds<3";
 			sourceTree = "<group>";
@@ -141,10 +162,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8E8B14F27D40FD500F6F4A1 /* LaunchScreen.storyboard in Resources */,
+				6656995627D4A75F0097E2C4 /* Cinnamon Saver.png in Resources */,
+				6656995227D4A4490097E2C4 /* Chopstick Supports.png in Resources */,
+				6656995427D4A6C30097E2C4 /* Eggshell seedlings.png in Resources */,
+				6656995827D4A89C0097E2C4 /* Waterwick Hack.png in Resources */,
+				6656995A27D4A8F40097E2C4 /* Icecubes .png in Resources */,
 				660DB44227D48AC800EFB4B6 /* Sponge and Leaf.png in Resources */,
 				A8E8B14C27D40FD500F6F4A1 /* Assets.xcassets in Resources */,
 				6656995027D499450097E2C4 /* Boiled eggs.png in Resources */,
 				A8E8B14A27D40FCE00F6F4A1 /* Main.storyboard in Resources */,
+				6656995E27D4AA170097E2C4 /* Club Soda Plant.png in Resources */,
+				6656995C27D4A9A10097E2C4 /* Coffee Grounds.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
