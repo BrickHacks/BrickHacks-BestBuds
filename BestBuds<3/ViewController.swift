@@ -16,7 +16,9 @@ class ViewController: UIViewController {
     @IBAction func signinpress(_ sender: UIButton) {
         print("Pressed")
         
-        self.performSegue(withIdentifier: "SecondViewSegue", sender: self)
+        self.performSegue(withIdentifier: "TabBarSegue", sender: self)
+        self.performSegue(withIdentifier: "MainSegue", sender: self)
+        
     }
     override func viewDidLoad() {
         super.viewDidLoad()

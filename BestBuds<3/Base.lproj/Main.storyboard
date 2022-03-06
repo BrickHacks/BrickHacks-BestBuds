@@ -8,33 +8,6 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Second Screen View Controller-->
-        <scene sceneID="g5f-KK-xTg">
-            <objects>
-                <viewController storyboardIdentifier="SecondScreenViewController" id="k4J-yD-Bry" customClass="SecondScreenViewController" customModule="BestBuds_3" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="0Ee-yM-0A5">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="second view" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kCE-e3-ZOL">
-                                <rect key="frame" x="160" y="441" width="95" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="cVN-Ck-2RM"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="kCE-e3-ZOL" firstAttribute="centerY" secondItem="cVN-Ck-2RM" secondAttribute="centerY" id="7MX-dp-cRM"/>
-                            <constraint firstItem="kCE-e3-ZOL" firstAttribute="centerX" secondItem="cVN-Ck-2RM" secondAttribute="centerX" id="8qk-7t-KSb"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="yMs-MF-O0v" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1048" y="21"/>
-        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -161,7 +134,8 @@
                         <outlet property="passwordTextField" destination="2lO-LO-qMA" id="1sK-fE-hso"/>
                         <outlet property="signInButton" destination="0A9-YK-NGA" id="9Fa-52-vMo"/>
                         <outlet property="userTextField" destination="kYf-5J-TVN" id="MVx-Jp-HqU"/>
-                        <segue destination="k4J-yD-Bry" kind="showDetail" identifier="SecondViewSegue" id="TZ6-qd-I5x"/>
+                        <segue destination="jyA-KC-dKk" kind="presentation" identifier="MainSegue" modalPresentationStyle="fullScreen" id="YHe-Oc-rep"/>
+                        <segue destination="pOH-nc-qTN" kind="presentation" identifier="TabBarSegue" modalPresentationStyle="fullScreen" id="Ree-4t-qLe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -171,7 +145,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="hP5-Dx-Jwj">
             <objects>
-                <tabBarController id="pOH-nc-qTN" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="TabBarController" id="pOH-nc-qTN" customClass="TabBarController" customModule="BestBuds_3" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="IZC-9q-tDf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -182,29 +156,30 @@
                         <segue destination="mim-zy-rRO" kind="relationship" relationship="viewControllers" id="CZO-j8-I4f"/>
                         <segue destination="wNb-3A-pI6" kind="relationship" relationship="viewControllers" id="yoQ-Yb-nmV"/>
                         <segue destination="Sa7-bd-jD4" kind="relationship" relationship="viewControllers" id="IpC-vE-tUu"/>
+                        <segue destination="LMW-HZ-iI3" kind="relationship" relationship="viewControllers" id="mDe-q4-wSp"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ojE-dS-yyK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="700" y="17"/>
         </scene>
-        <!--Tips-->
+        <!--My Plants-->
         <scene sceneID="e4j-jC-5KI">
             <objects>
-                <viewController id="jyA-KC-dKk" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MyPlantsController" id="jyA-KC-dKk" customClass="MyPlantsController" customModule="BestBuds_3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="raW-yr-tCw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="cnC-O6-jqo"/>
                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Tips" image="info.circle.fill" catalog="system" id="hp7-Kr-5eK"/>
+                    <tabBarItem key="tabBarItem" title="My Plants" image="leaf.circle.fill" catalog="system" id="hp7-Kr-5eK"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J3S-37-NkG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1770" y="-841"/>
         </scene>
-        <!--Feed-->
+        <!--Info-->
         <scene sceneID="z35-O5-6Uv">
             <objects>
                 <viewController id="mim-zy-rRO" sceneMemberID="viewController">
@@ -214,13 +189,13 @@
                         <viewLayoutGuide key="safeArea" id="iqY-NU-amR"/>
                         <color key="backgroundColor" systemColor="systemPinkColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Feed" image="globe" catalog="system" id="yuw-eS-fFh"/>
+                    <tabBarItem key="tabBarItem" title="Info" image="info.circle.fill" catalog="system" id="yuw-eS-fFh"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FhD-n7-SML" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1770" y="-204"/>
         </scene>
-        <!--Plant Care-->
+        <!--Feed-->
         <scene sceneID="Ugj-fT-gDB">
             <objects>
                 <viewController id="wNb-3A-pI6" sceneMemberID="viewController">
@@ -244,13 +219,13 @@
                             <constraint firstItem="A1n-0a-bOw" firstAttribute="top" secondItem="Xhe-oe-0WR" secondAttribute="top" id="ivn-dG-Lp0"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Plant Care" image="leaf.fill" catalog="system" id="0Zt-Em-mdh"/>
+                    <tabBarItem key="tabBarItem" title="Feed" image="globe" catalog="system" id="0Zt-Em-mdh"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gyW-EZ-wUN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1771" y="445"/>
         </scene>
-        <!--Plant Book-->
+        <!--Plant Care-->
         <scene sceneID="42W-hp-cn5">
             <objects>
                 <viewController id="Sa7-bd-jD4" sceneMemberID="viewController">
@@ -260,13 +235,32 @@
                         <viewLayoutGuide key="safeArea" id="Blh-0c-Q3P"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Plant Book" image="book.closed.fill" catalog="system" id="xTE-9B-m5E"/>
+                    <tabBarItem key="tabBarItem" title="Plant Care" image="leaf.fill" catalog="system" id="xTE-9B-m5E"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="31J-H8-Tgl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1770" y="1169"/>
+            <point key="canvasLocation" x="1770" y="1176"/>
+        </scene>
+        <!--Plant Book-->
+        <scene sceneID="5aE-MX-l74">
+            <objects>
+                <viewController id="LMW-HZ-iI3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4lb-Uj-x7A">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="SPz-s6-Bpp"/>
+                        <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Plant Book" image="book.closed.fill" catalog="system" id="AJs-kj-pGf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qz7-7F-BMG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1770" y="1907"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="YHe-Oc-rep"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="book.closed.fill" catalog="system" width="115" height="128"/>
         <image name="globe" catalog="system" width="128" height="121"/>
@@ -284,6 +278,9 @@
         </systemColor>
         <systemColor name="systemPinkColor">
             <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemTealColor">
             <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6624BDEA27D4735C00362D03 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6624BDE927D4735C00362D03 /* TabBarController.swift */; };
+		6624BDEC27D477E200362D03 /* MyPlantsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6624BDEB27D477E100362D03 /* MyPlantsController.swift */; };
 		A8E8B14327D40FCE00F6F4A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E8B14227D40FCE00F6F4A1 /* AppDelegate.swift */; };
 		A8E8B14527D40FCE00F6F4A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E8B14427D40FCE00F6F4A1 /* SceneDelegate.swift */; };
 		A8E8B14727D40FCE00F6F4A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E8B14627D40FCE00F6F4A1 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6624BDE927D4735C00362D03 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		6624BDEB27D477E100362D03 /* MyPlantsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPlantsController.swift; sourceTree = "<group>"; };
 		A8E8B13F27D40FCE00F6F4A1 /* BestBuds<3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BestBuds<3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8E8B14227D40FCE00F6F4A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8E8B14427D40FCE00F6F4A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				A8E8B14D27D40FD500F6F4A1 /* LaunchScreen.storyboard */,
 				A8E8B15027D40FD500F6F4A1 /* Info.plist */,
 				A8E8B15627D43FF500F6F4A1 /* SecondScreenViewController.swift */,
+				6624BDE927D4735C00362D03 /* TabBarController.swift */,
+				6624BDEB27D477E100362D03 /* MyPlantsController.swift */,
 			);
 			path = "BestBuds<3";
 			sourceTree = "<group>";
@@ -142,8 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8E8B15727D43FF500F6F4A1 /* SecondScreenViewController.swift in Sources */,
+				6624BDEC27D477E200362D03 /* MyPlantsController.swift in Sources */,
 				A8E8B14727D40FCE00F6F4A1 /* ViewController.swift in Sources */,
 				A8E8B14327D40FCE00F6F4A1 /* AppDelegate.swift in Sources */,
+				6624BDEA27D4735C00362D03 /* TabBarController.swift in Sources */,
 				A8E8B14527D40FCE00F6F4A1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
