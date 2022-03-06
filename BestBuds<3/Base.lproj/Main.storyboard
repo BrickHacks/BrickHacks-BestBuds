@@ -168,14 +168,145 @@
             </objects>
             <point key="canvasLocation" x="-416" y="21"/>
         </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="nd3-I2-5Oe">
+            <objects>
+                <tabBarController id="xFi-Ph-bGK" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ooD-3o-Hf9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="mce-a2-ouX" kind="relationship" relationship="viewControllers" id="wpf-6D-qbz"/>
+                        <segue destination="Heh-Jw-4TY" kind="relationship" relationship="viewControllers" id="eOc-ja-QfR"/>
+                        <segue destination="3E9-hV-712" kind="relationship" relationship="viewControllers" id="omt-fK-bsD"/>
+                        <segue destination="tSp-Wj-yt1" kind="relationship" relationship="viewControllers" id="qy6-jd-Q8q"/>
+                        <segue destination="fX6-Ya-BZo" kind="relationship" relationship="viewControllers" id="MgX-B9-XoW"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7ED-Nd-wUf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="700" y="17"/>
+        </scene>
+        <!--My Plants-->
+        <scene sceneID="vp4-wU-Oe5">
+            <objects>
+                <viewController id="mce-a2-ouX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6fi-gU-roj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="XRJ-wT-GFz"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="My Plants" image="leaf.circle.fill" catalog="system" id="mBQ-dF-iLQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lYw-H0-SYB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1770" y="-1502"/>
+        </scene>
+        <!--Tips-->
+        <scene sceneID="Kxf-vU-O6z">
+            <objects>
+                <viewController id="Heh-Jw-4TY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="d0v-de-bcf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="av6-Uc-dV6"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Tips" image="info.circle.fill" catalog="system" id="sAg-Zm-Qan"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PGT-WU-Pgb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1770" y="-841"/>
+        </scene>
+        <!--Feed-->
+        <scene sceneID="d57-yw-ST7">
+            <objects>
+                <viewController id="3E9-hV-712" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="b9D-ti-1ke">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="oCk-Xy-9an"/>
+                        <color key="backgroundColor" systemColor="systemPinkColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Feed" image="globe" catalog="system" id="2b3-mx-3rO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F1a-Hb-BP6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1770" y="-204"/>
+        </scene>
+        <!--Plant Care-->
+        <scene sceneID="4OR-Ie-zWb">
+            <objects>
+                <viewController id="tSp-Wj-yt1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RlX-YQ-dy7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KjD-Cr-XJ9">
+                                <rect key="frame" x="0.0" y="44" width="414" height="300"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="qEO-Q6-q5j"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="847-es-yDq"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                        <constraints>
+                            <constraint firstItem="KjD-Cr-XJ9" firstAttribute="top" secondItem="847-es-yDq" secondAttribute="top" id="6Sg-Gk-k5m"/>
+                            <constraint firstItem="KjD-Cr-XJ9" firstAttribute="leading" secondItem="847-es-yDq" secondAttribute="leading" id="TNM-jE-i7l"/>
+                            <constraint firstItem="847-es-yDq" firstAttribute="trailing" secondItem="KjD-Cr-XJ9" secondAttribute="trailing" id="VlM-43-H10"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Plant Care" image="leaf.fill" catalog="system" id="qT6-j8-WuT"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KFh-Gf-26J" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1771" y="445"/>
+        </scene>
+        <!--Plant Book-->
+        <scene sceneID="kB1-Dy-DaB">
+            <objects>
+                <viewController id="fX6-Ya-BZo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jpM-nZ-tq7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="zra-iy-voB"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Plant Book" image="book.closed.fill" catalog="system" id="c67-K6-pL0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EdI-RG-fin" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1770" y="1169"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="book.closed.fill" catalog="system" width="115" height="128"/>
+        <image name="globe" catalog="system" width="128" height="121"/>
+        <image name="info.circle.fill" catalog="system" width="128" height="121"/>
         <image name="leaf.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="leaf.fill" catalog="system" width="128" height="106"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
